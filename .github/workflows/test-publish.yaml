@@ -36,7 +36,7 @@ jobs:
           - '--release=2.12'
           - '--release=2.13.3'
           # Latest version
-          - 
+          - '--release=2.16.0'
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
