@@ -1,4 +1,4 @@
-FROM debian:bullseye-slim
+FROM debian:bookworm-slim
 LABEL maintainer="zodern"
 RUN apt-get update && \
   apt-get install -y curl python python3 make g++ bzip2 ca-certificates --no-install-recommends && \
